@@ -1,4 +1,4 @@
-# Logstash-log-parsing-configuration-file
+# Logstash log parsing configuration file
 Logstash là một thành phần quan trọng trong giải pháp SIEM ELK Stack của Elastic. Trong repo này, có 4 tệp cấu hình xử lý log từ Linux log:
 1. 00-input-beats.conf: Cấu hình đầu vào của Logstash là các beat (Winlogbeat, Filebeat,...).
 2. 20-ubuntu-auth.conf: Cấu hình cách xử lý authentication log của Linux. Hiện tại, tệp này chỉ xử lý các dòng log có chứa "Failed password" ứng với các lần đăng nhập thất bại bằng SSH.
